@@ -1,0 +1,32 @@
+.units {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.table {
+    height: 12rem;
+    overflow: scroll;
+    margin-top: 2rem;
+    width: 40%;
+    background-color: #ABA894;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #2E333D;
+    border-top: #2E333D 3px solid;
+}
+
+.table table {
+    width: 100%;
+}
+
+.table table:hover {
+    cursor: pointer;
+}
+
+.table thead {
+    height: 1.5rem;
+}

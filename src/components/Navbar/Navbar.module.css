@@ -1,0 +1,61 @@
+.navbar {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    animation: navbar-appears 3s ease-in-out forwards;
+}
+
+@keyframes navbar-appears {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.image {
+    width: 25%;
+}
+
+.image button {
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10%;
+}
+
+.image button:hover {
+    height: 60px;
+    width: 60px;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #A2847F;
+    font-weight: bold;
+    color: #752B39;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.title {
+    width: 50%;
+    text-align: center;
+}
+
+.button {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.button button {
+    margin: 0 1.5rem;
+    background-color: #EED9B6;
+}

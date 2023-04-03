@@ -1,0 +1,13 @@
+.unit-detail {
+    background-color: #2E333D;
+    color: #EED9B6;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}

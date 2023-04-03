@@ -1,0 +1,54 @@
+.home {
+    position: relative;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 50%;
+    max-width: 70%;
+    border-top: 2px solid;
+    animation: home-gets-bigger 3s ease-in-out forwards;
+}
+
+
+@keyframes home-gets-bigger {
+    from {top: 0px;}
+    to {top: 50px;}
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.main {
+text-align: center;
+}
+
+.page-1 {
+    margin: 1rem;
+    width: 10%;
+    border-radius: 20px;
+    background-color: #EED9B6;
+}
+
+.page-2 button {
+    margin: 1rem;
+    width: 10%;
+    border-radius: 20px;
+    background-color: #EED9B6;
+}
+
+.page-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-3 button {
+    margin: 1rem;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #EED9B6;
+}
+
+.btn-2 {
+    background-color: white !important;
+}

@@ -1,0 +1,70 @@
+.costs {
+    margin-top: 2rem;
+    width: 40%;
+    background-color: #ABA894;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cost-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem 1rem;
+}
+
+.cost-inputs div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wood {
+    margin: 0.5rem 0.5rem;
+    width: 30%;
+}
+
+.food {
+    margin: 0.5rem 0.5rem;
+    width: 30%;
+}
+
+.gold {
+    margin: 0.5rem 0.5rem;
+    width: 30%;
+}
+
+.costs label {
+    margin-left: 0.2rem;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 20rem;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #2E333D;
+    border-radius: 0.5rem;
+    height: 0.5rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -4px;
+    background-color: #EED9B6;
+    border-radius: 0.5rem;
+    height: 1rem;
+    width: 1rem;
+}
+
